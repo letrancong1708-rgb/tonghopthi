@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tổng hợp 12 thì tiếng Anh: công thức, cách dùng, dấu hiệu nhận biết và ví dụ.">
+  <title>English Tenses — 12 thì tiếng Anh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">T</span><span>English<span class="brand-light">Tenses</span></span></a>
+    <span class="top-note">GRAMMAR REFERENCE · 12 TENSES</span>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-dot"></span> ENGLISH GRAMMAR GUIDE</div>
+      <h1>Nắm vững <span>12 thì</span><br>trong tiếng Anh</h1>
+      <p class="hero-desc">Chọn một thì để xem công thức, cách dùng, dấu hiệu nhận biết và ví dụ minh họa. Học nhanh — hiểu đúng — áp dụng dễ dàng.</p>
+      <div class="hero-stats">
+        <div><strong>12</strong><span>Thì cơ bản</span></div>
+        <div><strong>3</strong><span>Mốc thời gian</span></div>
+        <div><strong>4</strong><span>Thể diễn đạt</span></div>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <aside class="sidebar">
+        <div class="section-label">CHỌN THÌ MUỐN HỌC</div>
+        <label class="select-label" for="tenseSelect">Danh sách 12 thì</label>
+        <select id="tenseSelect" aria-label="Chọn thì tiếng Anh">
+          <optgroup label="HIỆN TẠI">
+            <option value="present-simple">1. Hiện tại đơn</option>
+            <option value="present-continuous">2. Hiện tại tiếp diễn</option>
+            <option value="present-perfect">3. Hiện tại hoàn thành</option>
+            <option value="present-perfect-continuous">4. Hiện tại hoàn thành tiếp diễn</option>
+          </optgroup>
+          <optgroup label="QUÁ KHỨ">
+            <option value="past-simple">5. Quá khứ đơn</option>
+            <option value="past-continuous">6. Quá khứ tiếp diễn</option>
+            <option value="past-perfect">7. Quá khứ hoàn thành</option>
+            <option value="past-perfect-continuous">8. Quá khứ hoàn thành tiếp diễn</option>
+          </optgroup>
+          <optgroup label="TƯƠNG LAI">
+            <option value="future-simple">9. Tương lai đơn</option>
+            <option value="future-continuous">10. Tương lai tiếp diễn</option>
+            <option value="future-perfect">11. Tương lai hoàn thành</option>
+            <option value="future-perfect-continuous">12. Tương lai hoàn thành tiếp diễn</option>
+          </optgroup>
+        </select>
+        <div class="quick-list" id="quickList">
+          <button class="quick-item active" data-id="present-simple"><span class="number">01</span><span>Hiện tại đơn</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="present-continuous"><span class="number">02</span><span>Hiện tại tiếp diễn</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="present-perfect"><span class="number">03</span><span>Hiện tại hoàn thành</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="present-perfect-continuous"><span class="number">04</span><span>HT hoàn thành tiếp diễn</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="past-simple"><span class="number">05</span><span>Quá khứ đơn</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="past-continuous"><span class="number">06</span><span>Quá khứ tiếp diễn</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="past-perfect"><span class="number">07</span><span>Quá khứ hoàn thành</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="past-perfect-continuous"><span class="number">08</span><span>QK hoàn thành tiếp diễn</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="future-simple"><span class="number">09</span><span>Tương lai đơn</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="future-continuous"><span class="number">10</span><span>Tương lai tiếp diễn</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="future-perfect"><span class="number">11</span><span>Tương lai hoàn thành</span><span class="arrow">↗</span></button>
+          <button class="quick-item" data-id="future-perfect-continuous"><span class="number">12</span><span>TL hoàn thành tiếp diễn</span><span class="arrow">↗</span></button>
+        </div>
+        <div class="sidebar-tip"><span>✦</span><p><b>Mẹo học:</b> Hãy chú ý trợ động từ và dạng động từ trong mỗi công thức.</p></div>
+      </aside>
+
+      <section class="content-panel" aria-live="polite">
+        <div class="content-top">
+          <div>
+            <div class="section-label" id="categoryLabel">PRESENT · HIỆN TẠI</div>
+            <h2 id="tenseTitle">Hiện tại đơn</h2>
+            <p id="tenseSubtitle" class="subtitle">Present Simple</p>
+          </div>
+          <span class="tense-index" id="tenseIndex">01 / 12</span>
+        </div>
+
+        <div class="use-card">
+          <div class="card-icon">◎</div>
+          <div><h3>Dùng khi nào?</h3><p id="usage"></p></div>
+        </div>
+
+        <div class="block">
+          <div class="block-heading"><span class="heading-icon">ƒx</span><h3>Công thức</h3></div>
+          <div class="formula-grid">
+            <div class="formula-card"><span class="formula-type positive">KHẲNG ĐỊNH (+)</span><p id="positive"></p></div>
+            <div class="formula-card"><span class="formula-type negative">PHỦ ĐỊNH (−)</span><p id="negative"></p></div>
+            <div class="formula-card"><span class="formula-type question">NGHI VẤN (?)</span><p id="question"></p></div>
+          </div>
+          <p class="formula-note">S = Chủ ngữ · V = Động từ nguyên mẫu · V2 = Quá khứ đơn · V3 = Quá khứ phân từ · V-ing = Động từ thêm -ing</p>
+        </div>
+
+        <div class="block two-columns">
+          <div>
+            <div class="block-heading"><span class="heading-icon">⌕</span><h3>Dấu hiệu nhận biết</h3></div>
+            <div class="tag-list" id="signals"></div>
+          </div>
+          <div>
+            <div class="block-heading"><span class="heading-icon">✎</span><h3>Giải thích nhanh</h3></div>
+            <p class="explanation" id="explanation"></p>
+          </div>
+        </div>
+
+        <div class="block example-block">
+          <div class="block-heading"><span class="heading-icon">“ ”</span><h3>Ví dụ minh họa</h3></div>
+          <div id="examples"></div>
+        </div>
+
+        <div class="navigation">
+          <button id="prevBtn" class="nav-btn secondary">← Thì trước</button>
+          <button id="nextBtn" class="nav-btn primary">Thì tiếp theo →</button>
+        </div>
+      </section>
+    </section>
+
+    <section class="overview">
+      <div><div class="section-label">TỔNG QUAN</div><h2>12 thì được chia như thế nào?</h2><p>Ba mốc thời gian, mỗi mốc gồm bốn cách diễn đạt.</p></div>
+      <div class="overview-grid">
+        <div class="overview-card"><span class="overview-number">01</span><h3>Hiện tại</h3><p>Thói quen · Đang diễn ra · Kết quả · Quá trình</p></div>
+        <div class="overview-card"><span class="overview-number">02</span><h3>Quá khứ</h3><p>Đã xảy ra · Đang diễn ra · Xảy ra trước · Quá trình trước đó</p></div>
+        <div class="overview-card"><span class="overview-number">03</span><h3>Tương lai</h3><p>Sẽ xảy ra · Đang diễn ra · Hoàn tất trước · Kéo dài đến mốc</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span class="brand-mark small">T</span> EnglishTenses <span class="footer-separator">·</span> Tài liệu ôn tập ngữ pháp tiếng Anh</footer>
+  <script src="script.js"></script>
+</body>
+</html>
