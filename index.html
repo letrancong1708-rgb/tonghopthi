@@ -92,6 +92,14 @@
             <div class="formula-card"><span class="formula-type question">NGHI VẤN (?)</span><p id="question"></p></div>
           </div>
           <p class="formula-note">S = Chủ ngữ · V = Động từ nguyên mẫu · V2 = Quá khứ đơn · V3 = Quá khứ phân từ · V-ing = Động từ thêm -ing</p>
+          <div class="conversion-card">
+            <div class="block-heading"><span class="heading-icon">⇄</span><h3>Cách biến đổi các dạng câu</h3></div>
+            <div class="conversion-grid">
+              <div><span class="conversion-label">Khẳng định → Phủ định</span><p id="toNegative"></p></div>
+              <div><span class="conversion-label">Khẳng định → Nghi vấn</span><p id="toQuestion"></p></div>
+            </div>
+            <p class="conversion-example" id="conversionExample"></p>
+          </div>
         </div>
 
         <div class="block two-columns">
@@ -117,6 +125,44 @@
       </section>
     </section>
 
+
+    <section class="transform-section" id="sentence-transform">
+      <div class="transform-intro">
+        <div class="section-label">SENTENCE TRANSFORMATION</div>
+        <h2>Các chuyên đề biến đổi câu</h2>
+        <p>Chọn dạng ngữ pháp để xem quy tắc, công thức và ví dụ chuyển đổi.</p>
+      </div>
+      <div class="transform-layout">
+        <aside class="transform-menu">
+          <label for="transformSelect">Chọn chuyên đề</label>
+          <select id="transformSelect">
+            <option value="passive">1. Câu bị động</option>
+            <option value="reported">2. Câu trực tiếp – gián tiếp</option>
+            <option value="conditional">3. Câu điều kiện</option>
+            <option value="comparison">4. Câu so sánh</option>
+            <option value="relative">5. Mệnh đề quan hệ</option>
+            <option value="wish">6. Câu ước với WISH</option>
+            <option value="wordform">7. Biến đổi từ loại</option>
+            <option value="inversion">8. Đảo ngữ</option>
+          </select>
+          <p class="transform-tip">Mẹo: Xác định cấu trúc câu gốc và thì của động từ trước khi biến đổi.</p>
+        </aside>
+        <article class="transform-content" aria-live="polite">
+          <div class="section-label" id="transformCategory">VOICE</div>
+          <h3 id="transformTitle">Câu bị động</h3>
+          <p id="transformDesc"></p>
+          <div class="transform-rule">
+            <span class="conversion-label">CÔNG THỨC / QUY TẮC</span>
+            <p id="transformFormula"></p>
+          </div>
+          <div class="transform-rule">
+            <span class="conversion-label">CÁCH BIẾN ĐỔI</span>
+            <ol id="transformSteps"></ol>
+          </div>
+          <div class="transform-examples" id="transformExamples"></div>
+        </article>
+      </div>
+    </section>
     <section class="overview">
       <div><div class="section-label">TỔNG QUAN</div><h2>12 thì được chia như thế nào?</h2><p>Ba mốc thời gian, mỗi mốc gồm bốn cách diễn đạt.</p></div>
       <div class="overview-grid">
